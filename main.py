@@ -49,7 +49,7 @@ class Traductor:
     @staticmethod # Permite llamar como Traductor.start_webdriver()
     def start_webdriver(headless=False, pos="max", lang='en', proxy=False, proxylist='', proxy_type='http'):
         '''
-        Inicia un navegador de Chrome y devuelve el objeto Webdruver instanciado.
+        Inicia un navegador de Chrome y devuelve el objeto webdriver instanciado.
         pos: indica la posición del navegador en la pantalla ("max" | "left" | "right").
         '''
 
